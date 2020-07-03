@@ -31,33 +31,36 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Portfolio</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link active" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="https://www.instagram.com/ablackmanscode/" title="Go to My Instagram">Instagram</a>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container">
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Contact Me</h2>
+            <p>Contact me via Instagram, or leave a message!</p>
+        </div>
         <div class="row">
-            <div class="col-9">
-                <h1>About Me</h1>
+            <div class="col-12">
             </div>
-            <div class="col-3">
-                <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  
+            <div class="col-2">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
-        
-
-    </main>
-    
-
+    </div>
 </body>
 
 </html>
