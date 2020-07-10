@@ -2,14 +2,24 @@
 // No media query for `xs` since this is the default in Bootstrap
 
 /Small devices (landscape phones, 576px and up)*/
+
+#form {
+    text-align:center;
+}
 @media (min-width: 576px) { 
     body {
-        background-color:black !important;
+        background-color: #343A40 !important;
+    }
+    h1{
+        color: whitesmoke;
+        
     }
     .paragraph {
-    font-size: 20px;
+    color: whitesmoke;
+    font-size: 30px;
    }
-
+   
+   }
  }
 
 /* Medium devices (tablets, 768px and up)*/
